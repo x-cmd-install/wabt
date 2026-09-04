@@ -7,7 +7,7 @@ about:
   head: 974221b
   archived: false
   latestVersion: 1.0.41
-  collectedAt: 2026-09-04T19:42:28Z
+  collectedAt: 2026-09-04T20:52:14Z
 timeline:
   created: 2015-09-14
   lastCommit: 2026-08-30
@@ -15,7 +15,7 @@ timeline:
 popularity:
   star: 8117
   watcher: 146
-  fork: 820
+  fork: 821
   release: 41
   contributor: 183
   pullRequest: 1972
@@ -88,6 +88,104 @@ total:
   openIssue: 178
   commit: 2619
 ---
+path: /home/runner/.x-repo/github.com/WebAssembly/wabt
+collectedAt: 2026-09-04T20:52:16Z
+loc:
+  Cpp:
+    code: 47601
+    comments: 2654
+    blanks: 6432
+    files: 81
+  WebAssembly:
+    code: 28213
+    comments: 305
+    blanks: 1854
+    files: 36
+  CHeader:
+    code: 8980
+    comments: 2025
+    blanks: 1941
+    files: 63
+  C:
+    code: 3705
+    comments: 399
+    blanks: 574
+    files: 17
+  Python:
+    code: 3153
+    comments: 338
+    blanks: 650
+    files: 14
+  Html:
+    code: 1622
+    comments: 45
+    blanks: 5
+    files: 14
+  JavaScript:
+    code: 983
+    comments: 134
+    blanks: 137
+    files: 12
+  ModuleDef:
+    code: 850
+    comments: 0
+    blanks: 23
+    files: 4
+  CMake:
+    code: 698
+    comments: 85
+    blanks: 126
+    files: 4
+  Json:
+    code: 690
+    comments: 0
+    blanks: 0
+    files: 2
+  Makefile:
+    code: 204
+    comments: 26
+    blanks: 60
+    files: 6
+  Bitbake:
+    code: 194
+    comments: 72
+    blanks: 31
+    files: 2
+  Css:
+    code: 147
+    comments: 0
+    blanks: 28
+    files: 1
+  Lua:
+    code: 143
+    comments: 8
+    blanks: 19
+    files: 1
+  Sh:
+    code: 74
+    comments: 89
+    blanks: 24
+    files: 6
+  Autoconf:
+    code: 51
+    comments: 98
+    blanks: 47
+    files: 2
+  Markdown:
+    code: 0
+    comments: 1325
+    blanks: 381
+    files: 9
+  Text:
+    code: 0
+    comments: 75404
+    blanks: 2963
+    files: 1568
+total:
+  code: 97599
+  comments: 83049
+  blanks: 15332
+  files: 1842
 ---
 date: "2026-08-24"
 repo:
