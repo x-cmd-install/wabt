@@ -7,7 +7,7 @@ about:
   latestVersion: "1.0.41"
   latestRelease: "1.0.41"
   latestPrerelease: "1.0.16"
-  collectedAt: 2026-09-09T05:03:39Z
+  collectedAt: 2026-09-09T19:27:55Z
 timeline:
   created: 2015-09-14
   lastCommit: 2026-09-06
@@ -17,11 +17,11 @@ timeline:
 popularity:
   star: 8123
   watcher: 147
-  fork: 822
+  fork: 823
   release: 41
   contributor: 183
-  pullRequest: 1978
-  issue: 856
+  pullRequest: 1979
+  issue: 857
 language:
   C++: 2254530
   WebAssembly: 1436052
@@ -38,60 +38,60 @@ recent:
     since: 2026-08-10
     release: 0
     mergedPR: 12
-    openPR: 13
+    openPR: 14
     closedIssue: 2
-    openIssue: 5
+    openIssue: 6
     commit: 13
   last60d:
     since: 2026-07-11
     release: 0
     mergedPR: 31
-    openPR: 14
+    openPR: 15
     closedIssue: 2
-    openIssue: 5
+    openIssue: 6
     commit: 31
   last90d:
     since: 2026-06-11
     release: 0
     mergedPR: 65
-    openPR: 15
+    openPR: 16
     closedIssue: 3
-    openIssue: 5
+    openIssue: 6
     commit: 67
   last180d:
     since: 2026-03-13
     release: 1
     mergedPR: 86
-    openPR: 18
+    openPR: 19
     closedIssue: 5
-    openIssue: 17
+    openIssue: 18
     commit: 88
   last360d:
     since: 2025-09-14
     release: 4
     mergedPR: 122
-    openPR: 22
+    openPR: 23
     closedIssue: 19
-    openIssue: 35
+    openIssue: 36
     commit: 127
   last720d:
     since: 2024-09-19
     release: 5
     mergedPR: 195
-    openPR: 38
+    openPR: 39
     closedIssue: 47
-    openIssue: 63
+    openIssue: 64
     commit: 202
 total:
   release: 41
   mergedPR: 1720
-  openPR: 58
+  openPR: 59
   closedIssue: 676
-  openIssue: 180
+  openIssue: 181
   commit: 2620
 ---
 path: /home/runner/.x-repo/github.com/WebAssembly/wabt
-collectedAt: 2026-09-09T05:03:43Z
+collectedAt: 2026-09-09T19:28:03Z
 loc:
   Cpp:
     code: 47601
@@ -329,15 +329,15 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-  - wasm2wat
-  - wasm-decompile
-  - wasm-stats
+  - wasm-validate
   - wast2json
-  - wasm-strip
   - wasm-interp
+  - wasm-strip
+  - wasm-stats
   - wat2wasm
-  - wasm2c
+  - wasm-decompile
+  - wasm2wat
   - wasm-objdump
+  - wasm2c
   - spectest-interp
   - wat-desugar
-  - wasm-validate
