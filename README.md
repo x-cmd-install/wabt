@@ -22,11 +22,27 @@ x install wabt
 - **Latest**: `1.0.41` (2026-05-07)
 - **Last commit**: 2026-09-06
 - **Assets in release**: 12
-- **Published**: 2026-05-07T14:32:21Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [wabt-1.0.41-linux-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-arm64.tar.gz) | 4.9 MiB | `native/linux/arm64` |
+| [wabt-1.0.41-linux-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-arm64.tar.gz.sha256) | 97 B | `native/linux/arm64` |
+| [wabt-1.0.41-linux-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-x64.tar.gz) | 4.8 MiB | `native/unknown` |
+| [wabt-1.0.41-linux-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-x64.tar.gz.sha256) | 95 B | `other` |
+| [wabt-1.0.41-macos-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-macos-arm64.tar.gz) | 3.7 MiB | `native/darwin/arm64` |
+| [wabt-1.0.41-macos-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-macos-arm64.tar.gz.sha256) | 97 B | `native/darwin/arm64` |
+| [wabt-1.0.41-wasi.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-wasi.tar.gz) | 3.1 MiB | `native/unknown` |
+| [wabt-1.0.41-wasi.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-wasi.tar.gz.sha256) | 90 B | `other` |
+| [wabt-1.0.41-windows-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-windows-x64.tar.gz) | 5.2 MiB | `native/win/x64` |
+| [wabt-1.0.41-windows-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-windows-x64.tar.gz.sha256) | 98 B | `native/win/x64` |
+| [wabt-1.0.41.tar.xz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41.tar.xz) | 7.2 MiB | `other` |
+| [wabt-1.0.41.tar.xz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41.tar.xz.sha256) | 85 B | `other` |
 
 ## Popularity
 
-- **Stars**: 8,123 · **Forks**: 823 · **Open issues**: 857 · **Contributors**: 183
+- **Stars**: 8,124 · **Forks**: 823 · **Open issues**: 857 · **Contributors**: 183
 
 ## Totals (cumulative)
 
@@ -67,8 +83,8 @@ Lowest-scoring checks:
 Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wabt` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/wabt.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/wabt.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:58:55Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:50:48Z._
