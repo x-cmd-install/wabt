@@ -7,7 +7,7 @@ about:
   latestVersion: "1.0.41"
   latestRelease: "1.0.41"
   latestPrerelease: "1.0.16"
-  collectedAt: 2026-09-10T20:53:39Z
+  collectedAt: 2026-09-10T22:57:43Z
 timeline:
   created: 2015-09-14
   lastCommit: 2026-09-06
@@ -91,7 +91,7 @@ total:
   commit: 2620
 ---
 path: /home/runner/.x-repo/github.com/WebAssembly/wabt
-collectedAt: 2026-09-10T20:53:44Z
+collectedAt: 2026-09-10T22:57:48Z
 loc:
   Cpp:
     code: 47601
@@ -329,15 +329,15 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-  - wasm-stats
-  - wasm2wat
-  - wast2json
   - wat-desugar
-  - wasm-validate
-  - wasm-interp
-  - wasm-strip
-  - wat2wasm
-  - wasm2c
   - wasm-decompile
+  - wast2json
+  - wasm-validate
   - wasm-objdump
+  - wasm-interp
+  - wasm2c
+  - wasm-stats
+  - wat2wasm
+  - wasm2wat
   - spectest-interp
+  - wasm-strip
