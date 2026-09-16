@@ -14,11 +14,11 @@ x install wabt
 
 ## 代码洞察
 
-合计: **97,414** 行代码（覆盖前 5 种语言、共 **211** 个文件）。
+合计: **97,419** 行代码（覆盖前 5 种语言、共 **211** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 47,688 | 2,655 | 6,440 | 81 |
+| Cpp | 47,690 | 2,655 | 6,440 | 81 |
 | WebAssembly | 28,213 | 305 | 1,854 | 36 |
 | CHeader | 8,993 | 2,025 | 1,943 | 63 |
 | C | 3,705 | 399 | 574 | 17 |
@@ -41,45 +41,45 @@ x install wabt
 
 ## 发布
 
-- **最新版本**: `1.0.41` (2026-05-07)
-- **最近提交**: 2026-09-15
+- **最新版本**: `1.0.42` (2026-09-15)
+- **最近提交**: 2026-09-16
 - **Release 含资产**: 12 个
 
 ## 流行度
 
-- **Star**: 8,129 · **Fork**: 824 · **开放 issue**: 858 · **贡献者**: 183
+- **Star**: 8,131 · **Fork**: 825 · **开放 issue**: 858 · **贡献者**: 184
 
 ## 累计统计
 
-- **发布数**: 41 · **已合并 PR**: 1727 · **开放 PR**: 54 · **已关闭 issue**: 677 · **开放 issue**: 181 · **提交数**: 2627
+- **发布数**: 42 · **已合并 PR**: 1732 · **开放 PR**: 53 · **已关闭 issue**: 678 · **开放 issue**: 180 · **提交数**: 2632
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 12 | 10 | 1 | 7 | 14 |
-| last60d | 2026-07-17 | 0 | 33 | 11 | 2 | 7 | 36 |
-| 90d | 2026-06-17 | 0 | 68 | 12 | 3 | 7 | 69 |
-| last180d | 2026-03-19 | 1 | 86 | 13 | 5 | 19 | 89 |
-| 360d | 2025-09-20 | 4 | 126 | 18 | 16 | 35 | 132 |
-| last720d | 2024-09-25 | 5 | 199 | 34 | 46 | 64 | 202 |
+| 30d | 2026-08-17 | 1 | 17 | 9 | 2 | 5 | 19 |
+| last60d | 2026-07-18 | 1 | 38 | 10 | 3 | 6 | 41 |
+| 90d | 2026-06-18 | 1 | 72 | 11 | 4 | 6 | 74 |
+| last180d | 2026-03-20 | 2 | 91 | 12 | 6 | 18 | 94 |
+| 360d | 2025-09-21 | 5 | 131 | 17 | 16 | 34 | 137 |
+| last720d | 2024-09-26 | 6 | 204 | 33 | 47 | 62 | 207 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [wabt-1.0.41-linux-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-arm64.tar.gz) | 4.9 MiB | `native/linux/arm64` |
-| [wabt-1.0.41-linux-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-arm64.tar.gz.sha256) | 97 B | `native/linux/arm64` |
-| [wabt-1.0.41-linux-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-x64.tar.gz) | 4.8 MiB | `native/unknown` |
-| [wabt-1.0.41-linux-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-linux-x64.tar.gz.sha256) | 95 B | `other` |
-| [wabt-1.0.41-macos-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-macos-arm64.tar.gz) | 3.7 MiB | `native/darwin/arm64` |
-| [wabt-1.0.41-macos-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-macos-arm64.tar.gz.sha256) | 97 B | `native/darwin/arm64` |
-| [wabt-1.0.41-wasi.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-wasi.tar.gz) | 3.1 MiB | `native/unknown` |
-| [wabt-1.0.41-wasi.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-wasi.tar.gz.sha256) | 90 B | `other` |
-| [wabt-1.0.41-windows-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-windows-x64.tar.gz) | 5.2 MiB | `native/win/x64` |
-| [wabt-1.0.41-windows-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41-windows-x64.tar.gz.sha256) | 98 B | `native/win/x64` |
-| [wabt-1.0.41.tar.xz](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41.tar.xz) | 7.2 MiB | `other` |
-| [wabt-1.0.41.tar.xz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.41/wabt-1.0.41.tar.xz.sha256) | 85 B | `other` |
+| [wabt-1.0.42-linux-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-arm64.tar.gz) | 4.6 MiB | `native/linux/arm64` |
+| [wabt-1.0.42-linux-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-arm64.tar.gz.sha256) | 97 B | `native/linux/arm64` |
+| [wabt-1.0.42-linux-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-x64.tar.gz) | 4.5 MiB | `native/unknown` |
+| [wabt-1.0.42-linux-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-x64.tar.gz.sha256) | 95 B | `other` |
+| [wabt-1.0.42-macos-arm64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-macos-arm64.tar.gz) | 3.5 MiB | `native/darwin/arm64` |
+| [wabt-1.0.42-macos-arm64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-macos-arm64.tar.gz.sha256) | 97 B | `native/darwin/arm64` |
+| [wabt-1.0.42-wasi.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-wasi.tar.gz) | 3.0 MiB | `native/unknown` |
+| [wabt-1.0.42-wasi.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-wasi.tar.gz.sha256) | 90 B | `other` |
+| [wabt-1.0.42-windows-x64.tar.gz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-windows-x64.tar.gz) | 6.2 MiB | `native/win/x64` |
+| [wabt-1.0.42-windows-x64.tar.gz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-windows-x64.tar.gz.sha256) | 98 B | `native/win/x64` |
+| [wabt-1.0.42.tar.xz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz) | 7.2 MiB | `other` |
+| [wabt-1.0.42.tar.xz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz.sha256) | 85 B | `other` |
 
 ## 改进这些数据
 
@@ -90,4 +90,4 @@ wabt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T05:33:27Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T05:21:55Z._
