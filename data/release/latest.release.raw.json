@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4817547,
       "digest": "sha256:a7632c1cc66f70886441842ecf5a2ffa91a98c79e026059458451234ad013ea8",
-      "download_count": 20,
+      "download_count": 32,
       "created_at": "2026-09-15T20:36:45Z",
       "updated_at": "2026-09-15T20:36:46Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-arm64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 4761911,
       "digest": "sha256:84895407a6bbb80e918f33b16b2fb2206021c150b6bc9ff6f761263a745ab131",
-      "download_count": 40,
+      "download_count": 126,
       "created_at": "2026-09-15T20:36:45Z",
       "updated_at": "2026-09-15T20:36:45Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 95,
       "digest": "sha256:359dac13fd7f7fa1d17c37eb0405d858a9fafdce49fd59cc3021a58b3fd9c88f",
-      "download_count": 2,
+      "download_count": 5,
       "created_at": "2026-09-15T20:36:46Z",
       "updated_at": "2026-09-15T20:36:47Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-linux-x64.tar.gz.sha256"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 3695890,
       "digest": "sha256:3f654779b436c628db3ca4323c51538815f5fbc887a6d5f3bb1c18d36281e240",
-      "download_count": 8,
+      "download_count": 19,
       "created_at": "2026-09-15T20:36:37Z",
       "updated_at": "2026-09-15T20:36:38Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-macos-arm64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 97,
       "digest": "sha256:d3b790b81bd50da5c7675ff07b5c9901897fd2563d8dcfbd5de3d2508cdf1e98",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-09-15T20:36:39Z",
       "updated_at": "2026-09-15T20:36:39Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-macos-arm64.tar.gz.sha256"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 3105621,
       "digest": "sha256:72dd192ae9334d790fa893fb92d3339e2135f74e111228af2646148a1f694ca7",
-      "download_count": 2,
+      "download_count": 5,
       "created_at": "2026-09-15T20:36:32Z",
       "updated_at": "2026-09-15T20:36:33Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-wasi.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 90,
       "digest": "sha256:a85e8fa3466dc1437cbe97cabe002a7250b55ea02be66fd9df99a5143d25cbef",
-      "download_count": 1,
+      "download_count": 3,
       "created_at": "2026-09-15T20:36:35Z",
       "updated_at": "2026-09-15T20:36:35Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-wasi.tar.gz.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 6519558,
       "digest": "sha256:62f1eb2b51aa57cf0f0b8ba333bf2c72a049930aa9c5de01dcad271c4fe48c88",
-      "download_count": 40,
+      "download_count": 131,
       "created_at": "2026-09-15T20:40:04Z",
       "updated_at": "2026-09-15T20:40:05Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-windows-x64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 98,
       "digest": "sha256:62c6b9fea96883dd50d7c3b5ecac231068106eca26478ae97ae604224b312fe9",
-      "download_count": 32,
+      "download_count": 37,
       "created_at": "2026-09-15T20:40:06Z",
       "updated_at": "2026-09-15T20:40:06Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42-windows-x64.tar.gz.sha256"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 7568944,
       "digest": "sha256:a76cda3c174a43097863a07fc0b0c202f770f53e21806ea2636f167d1ffb1e30",
-      "download_count": 44,
+      "download_count": 146,
       "created_at": "2026-09-15T20:35:32Z",
       "updated_at": "2026-09-15T20:35:32Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 85,
       "digest": "sha256:134a41ef7e24f532775957bf86685abb8d02eac9627877a4925c0dcca562d657",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-09-15T20:35:33Z",
       "updated_at": "2026-09-15T20:35:34Z",
       "browser_download_url": "https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz.sha256"
