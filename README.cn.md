@@ -4,7 +4,7 @@
 
 The WebAssembly Binary Toolkit
 
-[![x-cmd/install — wabt Code Quality Monitoring Repo Card](https://repo.x-cmd.io/wabt.svg?lang=zh)](https://x-cmd.com/install/wabt)
+[![x-cmd/install — wabt Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/wabt.svg?lang=zh)](https://x-cmd.com/install/wabt)
 
 ## 安装
 
@@ -57,12 +57,12 @@ x install wabt
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 18 | 8 | 2 | 3 | 18 |
-| last60d | 2026-07-24 | 1 | 40 | 10 | 4 | 5 | 45 |
-| 90d | 2026-06-24 | 1 | 61 | 11 | 5 | 5 | 65 |
-| last180d | 2026-03-26 | 2 | 92 | 12 | 7 | 17 | 95 |
-| 360d | 2025-09-27 | 5 | 134 | 17 | 16 | 32 | 141 |
-| last720d | 2024-10-02 | 6 | 206 | 33 | 47 | 59 | 210 |
+| 30d | 2026-08-24 | 1 | 18 | 8 | 2 | 2 | 18 |
+| last60d | 2026-07-25 | 1 | 40 | 10 | 4 | 5 | 45 |
+| 90d | 2026-06-25 | 1 | 60 | 11 | 5 | 5 | 65 |
+| last180d | 2026-03-27 | 2 | 92 | 12 | 7 | 17 | 95 |
+| 360d | 2025-09-28 | 5 | 134 | 17 | 16 | 32 | 141 |
+| last720d | 2024-10-03 | 6 | 206 | 33 | 47 | 59 | 209 |
 
 ## Release 资产
 
@@ -90,4 +90,4 @@ wabt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:18:06Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:12:55Z._

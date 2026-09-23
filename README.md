@@ -4,7 +4,7 @@
 
 The WebAssembly Binary Toolkit
 
-[![x-cmd/install — wabt Code Quality Monitoring Repo Card](https://repo.x-cmd.io/wabt.svg)](https://x-cmd.com/install/wabt)
+[![x-cmd/install — wabt Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/wabt.svg)](https://x-cmd.com/install/wabt)
 
 ## Install
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 18 | 8 | 2 | 3 | 18 |
-| last60d | 2026-07-24 | 1 | 40 | 10 | 4 | 5 | 45 |
-| 90d | 2026-06-24 | 1 | 61 | 11 | 5 | 5 | 65 |
-| last180d | 2026-03-26 | 2 | 92 | 12 | 7 | 17 | 95 |
-| 360d | 2025-09-27 | 5 | 134 | 17 | 16 | 32 | 141 |
-| last720d | 2024-10-02 | 6 | 206 | 33 | 47 | 59 | 210 |
+| 30d | 2026-08-24 | 1 | 18 | 8 | 2 | 2 | 18 |
+| last60d | 2026-07-25 | 1 | 40 | 10 | 4 | 5 | 45 |
+| 90d | 2026-06-25 | 1 | 60 | 11 | 5 | 5 | 65 |
+| last180d | 2026-03-27 | 2 | 92 | 12 | 7 | 17 | 95 |
+| 360d | 2025-09-28 | 5 | 134 | 17 | 16 | 32 | 141 |
+| last720d | 2024-10-03 | 6 | 206 | 33 | 47 | 59 | 209 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:18:06Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:12:54Z._
