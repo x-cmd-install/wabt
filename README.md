@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,137 · **Forks**: 827 · **Open issues**: 858 · **Contributors**: 186
+- **Stars**: 8,139 · **Forks**: 829 · **Open issues**: 858 · **Contributors**: 186
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 1 | 18 | 8 | 2 | 2 | 18 |
-| last60d | 2026-07-25 | 1 | 40 | 10 | 4 | 5 | 45 |
-| 90d | 2026-06-25 | 1 | 60 | 11 | 5 | 5 | 65 |
-| last180d | 2026-03-27 | 2 | 92 | 12 | 7 | 17 | 95 |
-| 360d | 2025-09-28 | 5 | 134 | 17 | 16 | 32 | 141 |
-| last720d | 2024-10-03 | 6 | 206 | 33 | 47 | 59 | 209 |
+| 30d | 2026-08-25 | 1 | 15 | 8 | 2 | 2 | 18 |
+| last60d | 2026-07-26 | 1 | 40 | 10 | 4 | 5 | 45 |
+| 90d | 2026-06-26 | 1 | 60 | 11 | 5 | 5 | 65 |
+| last180d | 2026-03-28 | 2 | 92 | 12 | 7 | 17 | 95 |
+| 360d | 2025-09-29 | 5 | 134 | 17 | 16 | 32 | 141 |
+| last720d | 2024-10-04 | 6 | 205 | 33 | 47 | 59 | 209 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T05:12:54Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:03:29Z._
