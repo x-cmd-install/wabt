@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 14 | 7 | 2 | 2 | 18 |
-| last60d | 2026-07-29 | 1 | 39 | 11 | 4 | 5 | 45 |
-| 90d | 2026-06-29 | 1 | 58 | 11 | 4 | 5 | 65 |
-| last180d | 2026-03-31 | 2 | 92 | 13 | 7 | 11 | 95 |
-| 360d | 2025-10-02 | 5 | 134 | 18 | 16 | 32 | 141 |
-| last720d | 2024-10-07 | 6 | 203 | 34 | 47 | 59 | 209 |
+| 30d | 2026-08-29 | 1 | 14 | 7 | 2 | 2 | 17 |
+| last60d | 2026-07-30 | 1 | 39 | 11 | 4 | 5 | 42 |
+| 90d | 2026-06-30 | 1 | 58 | 11 | 4 | 5 | 57 |
+| last180d | 2026-04-01 | 2 | 91 | 13 | 7 | 11 | 93 |
+| 360d | 2025-10-03 | 5 | 134 | 18 | 15 | 31 | 141 |
+| last720d | 2024-10-08 | 6 | 201 | 34 | 47 | 59 | 208 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:35:57Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:43:09Z._
