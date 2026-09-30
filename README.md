@@ -14,15 +14,15 @@ x install wabt
 
 ## Code insight
 
-Total: **97,481** lines of code across **211** files in the top 5 languages.
+Total: **97,564** lines of code across **211** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 47,750 | 2,668 | 6,430 | 81 |
+| Cpp | 47,809 | 2,670 | 6,438 | 81 |
 | WebAssembly | 28,213 | 305 | 1,854 | 36 |
-| CHeader | 8,995 | 2,025 | 1,943 | 63 |
+| CHeader | 9,016 | 2,025 | 1,944 | 63 |
 | C | 3,705 | 399 | 574 | 17 |
-| Python | 3,156 | 336 | 648 | 14 |
+| Python | 3,159 | 336 | 648 | 14 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.42` (2026-09-15)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-30
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 8,143 · **Forks**: 830 · **Open issues**: 858 · **Contributors**: 186
+- **Stars**: 8,146 · **Forks**: 830 · **Open issues**: 858 · **Contributors**: 186
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 1736 · **Open PRs**: 54 · **Closed issues**: 679 · **Open issues**: 179 · **Commits**: 2636
+- **Releases**: 42 · **Merged PRs**: 1738 · **Open PRs**: 54 · **Closed issues**: 679 · **Open issues**: 179 · **Commits**: 2638
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 13 | 7 | 2 | 2 | 17 |
-| last60d | 2026-07-31 | 1 | 39 | 11 | 4 | 5 | 42 |
-| 90d | 2026-07-01 | 1 | 58 | 11 | 4 | 5 | 57 |
-| last180d | 2026-04-02 | 2 | 90 | 13 | 7 | 11 | 93 |
-| 360d | 2025-10-04 | 4 | 134 | 18 | 15 | 30 | 141 |
-| last720d | 2024-10-09 | 6 | 201 | 34 | 47 | 59 | 205 |
+| 30d | 2026-08-31 | 1 | 15 | 7 | 2 | 2 | 19 |
+| last60d | 2026-08-01 | 1 | 39 | 11 | 4 | 5 | 44 |
+| 90d | 2026-07-02 | 1 | 60 | 11 | 4 | 5 | 59 |
+| last180d | 2026-04-03 | 2 | 92 | 13 | 7 | 11 | 95 |
+| 360d | 2025-10-05 | 4 | 136 | 18 | 15 | 30 | 143 |
+| last720d | 2024-10-10 | 6 | 203 | 34 | 47 | 59 | 207 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:13:41Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:50:37Z._
