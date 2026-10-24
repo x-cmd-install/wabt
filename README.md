@@ -14,11 +14,11 @@ x install wabt
 
 ## Code insight
 
-Total: **98,122** lines of code across **212** files in the top 5 languages.
+Total: **98,126** lines of code across **212** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 48,231 | 2,706 | 6,460 | 82 |
+| Cpp | 48,235 | 2,706 | 6,460 | 82 |
 | WebAssembly | 28,213 | 305 | 1,854 | 36 |
 | CHeader | 9,028 | 2,030 | 1,948 | 63 |
 | C | 3,838 | 396 | 585 | 17 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.42` (2026-09-15)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-23
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 8,173 · **Forks**: 839 · **Open issues**: 869 · **Contributors**: 192
+- **Stars**: 8,176 · **Forks**: 839 · **Open issues**: 869 · **Contributors**: 192
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 1749 · **Open PRs**: 66 · **Closed issues**: 684 · **Open issues**: 185 · **Commits**: 2650
+- **Releases**: 42 · **Merged PRs**: 1751 · **Open PRs**: 67 · **Closed issues**: 686 · **Open issues**: 183 · **Commits**: 2652
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 9 | 17 | 3 | 8 | 11 |
-| last60d | 2026-08-24 | 1 | 30 | 22 | 6 | 9 | 32 |
-| 90d | 2026-07-25 | 1 | 52 | 24 | 9 | 11 | 58 |
-| last180d | 2026-04-26 | 2 | 101 | 25 | 11 | 16 | 104 |
-| 360d | 2025-10-28 | 4 | 147 | 29 | 20 | 36 | 154 |
-| last720d | 2024-11-02 | 6 | 203 | 46 | 52 | 65 | 208 |
+| 30d | 2026-09-24 | 0 | 11 | 18 | 5 | 6 | 13 |
+| last60d | 2026-08-25 | 1 | 29 | 23 | 8 | 7 | 34 |
+| 90d | 2026-07-26 | 1 | 54 | 25 | 11 | 9 | 60 |
+| last180d | 2026-04-27 | 2 | 103 | 26 | 13 | 14 | 106 |
+| 360d | 2025-10-29 | 4 | 149 | 30 | 22 | 34 | 156 |
+| last720d | 2024-11-03 | 6 | 204 | 47 | 54 | 63 | 210 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:09:18Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:50:44Z._
