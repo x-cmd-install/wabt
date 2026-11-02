@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,188 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 193
+- **Stars**: 8,189 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 193
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 15 | 12 | 10 | 3 | 18 |
-| last60d | 2026-09-02 | 1 | 33 | 17 | 13 | 4 | 38 |
-| 90d | 2026-08-03 | 1 | 57 | 21 | 16 | 6 | 65 |
-| last180d | 2026-05-05 | 2 | 110 | 22 | 18 | 10 | 113 |
-| 360d | 2025-11-06 | 3 | 146 | 26 | 24 | 31 | 154 |
-| last720d | 2024-11-11 | 6 | 202 | 43 | 59 | 60 | 213 |
+| 30d | 2026-10-03 | 0 | 15 | 12 | 10 | 3 | 16 |
+| last60d | 2026-09-03 | 1 | 33 | 17 | 13 | 4 | 37 |
+| 90d | 2026-08-04 | 1 | 57 | 21 | 16 | 6 | 58 |
+| last180d | 2026-05-06 | 2 | 107 | 22 | 18 | 10 | 110 |
+| 360d | 2025-11-07 | 3 | 146 | 26 | 24 | 31 | 151 |
+| last720d | 2024-11-12 | 6 | 202 | 43 | 59 | 60 | 210 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **88** distros on [repology.org](https://repology.org/project/wabt). **22** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+Reported by **88** distros on [repology.org](https://repology.org/project/wabt). **21** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:20:46Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:20:42Z._
