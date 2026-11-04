@@ -26,7 +26,7 @@ Total: **98,217** lines of code across **212** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.8 / 10**
+Overall score: **5.9 / 10**
 
 Lowest-scoring checks:
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,191 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 193
+- **Stars**: 8,191 · **Forks**: 844 · **Open issues**: 871 · **Contributors**: 193
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 17 | 12 | 10 | 3 | 18 |
-| last60d | 2026-09-04 | 1 | 35 | 17 | 13 | 4 | 39 |
-| 90d | 2026-08-05 | 1 | 59 | 21 | 16 | 6 | 60 |
-| last180d | 2026-05-07 | 2 | 109 | 22 | 18 | 10 | 112 |
-| 360d | 2025-11-08 | 3 | 148 | 26 | 24 | 31 | 153 |
-| last720d | 2024-11-13 | 6 | 204 | 43 | 59 | 60 | 211 |
+| 30d | 2026-10-05 | 0 | 16 | 12 | 10 | 3 | 18 |
+| last60d | 2026-09-05 | 1 | 35 | 17 | 13 | 4 | 39 |
+| 90d | 2026-08-06 | 1 | 58 | 21 | 16 | 6 | 60 |
+| last180d | 2026-05-08 | 1 | 109 | 22 | 18 | 10 | 112 |
+| 360d | 2025-11-09 | 3 | 147 | 26 | 23 | 31 | 153 |
+| last720d | 2024-11-14 | 6 | 204 | 43 | 59 | 60 | 211 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:04:12Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:37:28Z._
