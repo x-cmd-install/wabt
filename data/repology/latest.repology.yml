@@ -1,3 +1,18 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.42+~cs1.0.39
+  origversion: 1.0.42+dfsg+~cs1.0.39-2
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - rouca@debian.org
+    - yadd@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: wabt
@@ -67,6 +82,17 @@
   summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
   licenses:
     - Apache-2.0
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: wabt
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: 1.0.42-2
+  status: newest
+  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: wabt-git
   binname: wabt-git
@@ -96,21 +122,6 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.42+~cs1.0.39
-  origversion: 1.0.42+dfsg+~cs1.0.39-2
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - rouca@debian.org
-    - yadd@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: wabt
   binnames:
     - wabt
@@ -241,6 +252,15 @@
   summary: The WebAssembly Binary Toolkit is a suite of tools for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
+- repo: gnuguix
+  srcname: wabt
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.36
+  origversion: null
+  status: outdated
+  summary: WebAssembly Binary Toolkit
+  vulnerable: true
 - repo: nix_stable_26_05
   srcname: wabt
   visiblename: wabt
@@ -513,19 +533,53 @@
   summary: WebAssembly Binary Toolkit
   categories:
     - Libs
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: nix_stable_24_05
   srcname: wabt
-  binnames:
-    - wabt
   visiblename: wabt
-  version: 1.0.8
-  origversion: 1.0.8-1
+  version: 1.0.35
+  origversion: null
   status: outdated
+  summary: The WebAssembly Binary Toolkit
   maintainers:
-    - apo@debian.org
+    - leo@gaspard.io
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: wabt
+  visiblename: wabt
+  version: 1.0.37
+  origversion: null
+  status: outdated
+  summary: WebAssembly Binary Toolkit
+  maintainers:
+    - leo@gaspard.io
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: wabt
+  visiblename: wabt
+  version: 1.0.37
+  origversion: null
+  status: outdated
+  summary: WebAssembly Binary Toolkit
+  maintainers:
+    - leo@gaspard.io
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: epel_7
+  srcname: wabt
+  visiblename: wabt
+  version: 1.0.24
+  origversion: 1.0.24-1.el7
+  status: outdated
+  summary: The WebAssembly Binary Toolkit
+  licenses:
+    - ASL 2.0
   categories:
-    - devel
+    - Unspecified
   vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
@@ -704,18 +758,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: epel_7
-  srcname: wabt
-  visiblename: wabt
-  version: 1.0.24
-  origversion: 1.0.24-1.el7
-  status: outdated
-  summary: The WebAssembly Binary Toolkit
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: fedora_39
   subrepo: release
   srcname: wabt
@@ -810,20 +852,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.20
-  origversion: 1.0.20-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - devel
-  vulnerable: true
 - repo: gentoo_ovl_guru
   srcname: dev-lang/wabt
   visiblename: dev-lang/wabt
@@ -859,15 +887,6 @@
     - unknown@pentoo.ch
   categories:
     - dev-util
-  vulnerable: true
-- repo: gnuguix
-  srcname: wabt
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.36
-  origversion: null
-  status: outdated
-  summary: WebAssembly Binary Toolkit
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-lang/wabt
@@ -921,42 +940,6 @@
   licenses:
     - APACHE
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: wabt
-  visiblename: wabt
-  version: 1.0.35
-  origversion: null
-  status: outdated
-  summary: The WebAssembly Binary Toolkit
-  maintainers:
-    - leo@gaspard.io
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: wabt
-  visiblename: wabt
-  version: 1.0.37
-  origversion: null
-  status: outdated
-  summary: WebAssembly Binary Toolkit
-  maintainers:
-    - leo@gaspard.io
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: wabt
-  visiblename: wabt
-  version: 1.0.37
-  origversion: null
-  status: outdated
-  summary: WebAssembly Binary Toolkit
-  maintainers:
-    - leo@gaspard.io
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: nix_stable_25_11
   srcname: wabt
   visiblename: wabt
@@ -984,7 +967,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: wabt
   binnames:
     - wabt
@@ -1000,7 +983,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: wabt
   binnames:
     - wabt
@@ -1014,6 +997,34 @@
     - yadd@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.8
+  origversion: 1.0.8-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.20
+  origversion: 1.0.20-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - devel
   vulnerable: true
 - repo: pureos_landing
   subrepo: landing/main
