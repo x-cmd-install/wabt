@@ -14,11 +14,11 @@ x install wabt
 
 ## Code insight
 
-Total: **98,217** lines of code across **212** files in the top 5 languages.
+Total: **98,218** lines of code across **212** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 48,270 | 2,715 | 6,468 | 82 |
+| Cpp | 48,271 | 2,719 | 6,468 | 82 |
 | WebAssembly | 28,213 | 305 | 1,854 | 36 |
 | CHeader | 9,029 | 2,030 | 1,949 | 63 |
 | C | 3,872 | 402 | 591 | 17 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.42` (2026-09-15)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-04
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 8,191 · **Forks**: 844 · **Open issues**: 871 · **Contributors**: 193
+- **Stars**: 8,192 · **Forks**: 844 · **Open issues**: 871 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 1760 · **Open PRs**: 63 · **Closed issues**: 691 · **Open issues**: 180 · **Commits**: 2660
+- **Releases**: 42 · **Merged PRs**: 1761 · **Open PRs**: 62 · **Closed issues**: 691 · **Open issues**: 180 · **Commits**: 2661
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 16 | 12 | 10 | 3 | 18 |
-| last60d | 2026-09-05 | 1 | 35 | 17 | 13 | 4 | 39 |
-| 90d | 2026-08-06 | 1 | 58 | 21 | 16 | 6 | 60 |
-| last180d | 2026-05-08 | 1 | 109 | 22 | 18 | 10 | 112 |
-| 360d | 2025-11-09 | 3 | 147 | 26 | 23 | 31 | 153 |
-| last720d | 2024-11-14 | 6 | 204 | 43 | 59 | 60 | 211 |
+| 30d | 2026-10-06 | 0 | 16 | 12 | 10 | 3 | 19 |
+| last60d | 2026-09-06 | 1 | 33 | 16 | 12 | 4 | 40 |
+| 90d | 2026-08-07 | 1 | 57 | 20 | 16 | 6 | 61 |
+| last180d | 2026-05-09 | 1 | 110 | 21 | 18 | 10 | 113 |
+| 360d | 2025-11-10 | 3 | 148 | 25 | 23 | 31 | 154 |
+| last720d | 2024-11-15 | 6 | 205 | 42 | 59 | 60 | 212 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **88** distros on [repology.org](https://repology.org/project/wabt). **21** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/wabt). **22** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:37:28Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:57:44Z._
