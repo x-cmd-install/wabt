@@ -1,10 +1,14 @@
-- repo: homebrew
+- repo: parabola
+  subrepo: extra
   srcname: wabt
+  binname: wabt
   visiblename: wabt
   version: 1.0.42
-  origversion: null
+  origversion: 1.0.42-1
   status: newest
-  summary: Web Assembly Binary Toolkit
+  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: wabt
@@ -171,6 +175,13 @@
     - yuri@freebsd.org
   categories:
     - www
+- repo: homebrew
+  srcname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: null
+  status: newest
+  summary: Web Assembly Binary Toolkit
 - repo: kali_rolling
   subrepo: main
   srcname: wabt
@@ -333,17 +344,6 @@
     - Apache-2.0
   categories:
     - Development/Tools
-- repo: parabola
-  subrepo: extra
-  srcname: wabt
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.42
-  origversion: 1.0.42-1
-  status: newest
-  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
-  licenses:
-    - Apache-2.0
 - repo: pkgsrc_2026_2
   srcname: devel/wabt
   binname: wabt
@@ -535,14 +535,107 @@
   summary: WebAssembly Binary Toolkit
   categories:
     - Libs
-- repo: gnuguix
+- repo: pardus_21
+  subrepo: main
   srcname: wabt
-  binname: wabt
+  binnames:
+    - wabt
   visiblename: wabt
-  version: 1.0.36
-  origversion: null
+  version: 1.0.20
+  origversion: 1.0.20-1
   status: outdated
-  summary: WebAssembly Binary Toolkit
+  maintainers:
+    - apo@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.32
+  origversion: 1.0.32-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.36+~cs1.0.36
+  origversion: 1.0.36+dfsg+~cs1.0.36-2
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - rouca@debian.org
+    - yadd@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.13
+  origversion: 1.0.13-1build1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.27
+  origversion: 1.0.27-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.20
+  origversion: 1.0.20-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.36+~cs1.0.36
+  origversion: 1.0.36+dfsg+~cs1.0.36-2
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - rouca@debian.org
+    - yadd@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
@@ -596,17 +689,6 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: gentoo_ovl_pentoo
-  srcname: dev-util/wabt
-  visiblename: dev-util/wabt
-  version: 1.0.34
-  origversion: null
-  status: legacy
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - dev-util
-  vulnerable: true
 - repo: chimera
   subrepo: main
   srcname: wabt
@@ -630,34 +712,6 @@
   summary: WebAssembly binary toolkit (manual pages)
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.20
-  origversion: 1.0.20-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.32
-  origversion: 1.0.32-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
@@ -863,6 +917,26 @@
   categories:
     - dev-util
   vulnerable: true
+- repo: gentoo_ovl_pentoo
+  srcname: dev-util/wabt
+  visiblename: dev-util/wabt
+  version: 1.0.34
+  origversion: null
+  status: legacy
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - dev-util
+  vulnerable: true
+- repo: gnuguix
+  srcname: wabt
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.36
+  origversion: null
+  status: outdated
+  summary: WebAssembly Binary Toolkit
+  vulnerable: true
 - repo: liguros_stable
   srcname: dev-lang/wabt
   visiblename: dev-lang/wabt
@@ -939,38 +1013,8 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.20
-  origversion: 1.0.20-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.36+~cs1.0.36
-  origversion: 1.0.36+dfsg+~cs1.0.36-2
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - rouca@debian.org
-    - yadd@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
   srcname: wabt
   binnames:
     - wabt
@@ -1042,50 +1086,6 @@
     - apo@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.36+~cs1.0.36
-  origversion: 1.0.36+dfsg+~cs1.0.36-2
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - rouca@debian.org
-    - yadd@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.13
-  origversion: 1.0.13-1build1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.27
-  origversion: 1.0.27-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
   subrepo: noble/universe
