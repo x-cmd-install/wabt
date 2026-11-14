@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,201 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 194
+- **Stars**: 8,205 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 1764 · **Open PRs**: 61 · **Closed issues**: 694 · **Open issues**: 177 · **Commits**: 2664
+- **Releases**: 42 · **Merged PRs**: 1764 · **Open PRs**: 61 · **Closed issues**: 697 · **Open issues**: 174 · **Commits**: 2664
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 14 | 8 | 9 | 2 | 17 |
-| last60d | 2026-09-14 | 1 | 31 | 13 | 11 | 2 | 30 |
-| 90d | 2026-08-15 | 1 | 51 | 18 | 16 | 5 | 55 |
-| last180d | 2026-05-17 | 1 | 113 | 20 | 19 | 9 | 116 |
-| 360d | 2025-11-18 | 3 | 150 | 24 | 25 | 27 | 154 |
-| last720d | 2024-11-23 | 6 | 205 | 41 | 60 | 58 | 213 |
+| 30d | 2026-10-15 | 0 | 14 | 8 | 9 | 2 | 17 |
+| last60d | 2026-09-15 | 1 | 28 | 13 | 11 | 2 | 30 |
+| 90d | 2026-08-16 | 1 | 48 | 18 | 16 | 5 | 55 |
+| last180d | 2026-05-18 | 1 | 113 | 20 | 19 | 9 | 116 |
+| 360d | 2025-11-19 | 3 | 150 | 24 | 26 | 26 | 154 |
+| last720d | 2024-11-24 | 6 | 205 | 41 | 61 | 57 | 213 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **89** distros on [repology.org](https://repology.org/project/wabt). **23** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/wabt). **24** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -94,7 +94,7 @@ Reported by **89** distros on [repology.org](https://repology.org/project/wabt).
 | Ubuntu 24.04 LTS | `1.0.34+dsfg2+~cs1.0.32` | ⚠️ outdated |
 | Arch | `1.0.42` | ✅ latest |
 | Homebrew | `1.0.42` | ✅ latest |
-| Fedora rawhide | `1.0.41` | ⚠️ outdated |
+| Fedora rawhide | `1.0.42` | ✅ latest |
 | Nix unstable | `1.0.41` | ⚠️ outdated |
 | Void | `1.0.41` | ⚠️ outdated |
 | Alpine edge | `1.0.41` | ⚠️ outdated |
@@ -108,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:00:28Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:07:15Z._
