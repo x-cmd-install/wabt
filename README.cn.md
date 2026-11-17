@@ -57,12 +57,12 @@ x install wabt
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 14 | 8 | 9 | 2 | 13 |
-| last60d | 2026-09-17 | 0 | 27 | 14 | 11 | 2 | 26 |
-| 90d | 2026-08-18 | 1 | 48 | 19 | 15 | 4 | 48 |
-| last180d | 2026-05-20 | 1 | 113 | 21 | 19 | 9 | 116 |
-| 360d | 2025-11-21 | 3 | 150 | 25 | 26 | 26 | 152 |
-| last720d | 2024-11-26 | 6 | 204 | 42 | 61 | 57 | 212 |
+| 30d | 2026-10-18 | 0 | 14 | 7 | 6 | 2 | 13 |
+| last60d | 2026-09-18 | 0 | 24 | 14 | 11 | 2 | 26 |
+| 90d | 2026-08-19 | 1 | 46 | 19 | 14 | 4 | 48 |
+| last180d | 2026-05-21 | 1 | 113 | 21 | 19 | 9 | 116 |
+| 360d | 2025-11-22 | 3 | 149 | 25 | 25 | 24 | 152 |
+| last720d | 2024-11-27 | 6 | 204 | 42 | 61 | 57 | 212 |
 
 ## Release 资产
 
@@ -81,24 +81,6 @@ x install wabt
 | [wabt-1.0.42.tar.xz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz) | 7.2 MiB | `other` |
 | [wabt-1.0.42.tar.xz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz.sha256) | 85 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/wabt) 上共有 **89** 个发行版报告此项目。**24** 个 ✅ 已是最新上游版本，**62** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.0.42+~cs1.0.39` | ⚠️ outdated |
-| Debian 14 | `1.0.42+~cs1.0.39` | ⚠️ outdated |
-| Debian 13 | `1.0.36+~cs1.0.36` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.0.36+~cs1.0.36` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.0.34+dsfg2+~cs1.0.32` | ⚠️ outdated |
-| Arch | `1.0.42` | ✅ latest |
-| Homebrew | `1.0.42` | ✅ latest |
-| Fedora rawhide | `1.0.42` | ✅ latest |
-| Nix unstable | `1.0.41` | ⚠️ outdated |
-| Void | `1.0.41` | ⚠️ outdated |
-| Alpine edge | `1.0.41` | ⚠️ outdated |
-
 ## 改进这些数据
 
 wabt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `wabt` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -108,4 +90,4 @@ wabt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:06:34Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T10:25:33Z._
