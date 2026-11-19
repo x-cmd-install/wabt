@@ -1,15 +1,3 @@
-- repo: aur
-  srcname: wabt-git
-  binname: wabt-git
-  visiblename: wabt-git
-  version: 1.0.39.r16.g6ca912cf
-  origversion: 1.0.39.r16.g6ca912cf-1
-  status: rolling
-  summary: The WebAssembly binary toolkit
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: wabt
@@ -79,13 +67,16 @@
   summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
   licenses:
     - Apache-2.0
-- repo: scoop
-  subrepo: extras
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.42
-  origversion: null
-  status: newest
+- repo: aur
+  srcname: wabt-git
+  binname: wabt-git
+  visiblename: wabt-git
+  version: 1.0.39.r16.g6ca912cf
+  origversion: 1.0.39.r16.g6ca912cf-1
+  status: rolling
+  summary: The WebAssembly binary toolkit
+  maintainers:
+    - chocobo1@aur
   licenses:
     - Apache-2.0
 - repo: debian_14
@@ -141,6 +132,20 @@
   visiblename: wabt
   version: 1.0.40
   origversion: 1.0.40-1.fc44
+  status: outdated
+  summary: The WebAssembly Binary Toolkit
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.41
+  origversion: 1.0.41-3.fc45
   status: outdated
   summary: The WebAssembly Binary Toolkit
   licenses:
@@ -226,7 +231,7 @@
   binname: wabt
   visiblename: wabt
   version: 1.0.42
-  origversion: 1.0.42-1
+  origversion: 1.0.42-2
   status: newest
   summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
   licenses:
@@ -247,7 +252,7 @@
   binname: mingw-w64-clang-x86_64-wabt
   visiblename: mingw-w64-clang-x86_64-wabt
   version: 1.0.42
-  origversion: 1.0.42-1
+  origversion: 1.0.42-2
   status: newest
   summary: The WebAssembly Binary Toolkit is a suite of tools for WebAssembly (mingw-w64)
   licenses:
@@ -257,7 +262,7 @@
   binname: mingw-w64-clang-aarch64-wabt
   visiblename: mingw-w64-clang-aarch64-wabt
   version: 1.0.42
-  origversion: 1.0.42-1
+  origversion: 1.0.42-2
   status: newest
   summary: The WebAssembly Binary Toolkit is a suite of tools for WebAssembly (mingw-w64)
   licenses:
@@ -267,7 +272,7 @@
   binname: mingw-w64-ucrt-x86_64-wabt
   visiblename: mingw-w64-ucrt-x86_64-wabt
   version: 1.0.42
-  origversion: 1.0.42-1
+  origversion: 1.0.42-2
   status: newest
   summary: The WebAssembly Binary Toolkit is a suite of tools for WebAssembly (mingw-w64)
   licenses:
@@ -404,6 +409,15 @@
     - yadd@debian.org
   categories:
     - misc
+- repo: scoop
+  subrepo: extras
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: solus
   srcname: wabt
   binname: wabt
@@ -535,8 +549,8 @@
   summary: WebAssembly Binary Toolkit
   categories:
     - Libs
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: deepin_unstable
+  subrepo: main
   srcname: wabt
   binnames:
     - wabt
@@ -546,8 +560,6 @@
   status: outdated
   maintainers:
     - apo@debian.org
-  categories:
-    - devel
   vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
@@ -668,18 +680,6 @@
     - yadd@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.8
-  origversion: 1.0.8-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
   vulnerable: true
 - repo: deepin_23
   subrepo: main
@@ -968,7 +968,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: wabt
   binnames:
     - wabt
@@ -984,7 +984,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: wabt
   binnames:
     - wabt
@@ -998,6 +998,20 @@
     - yadd@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: wabt
+  binnames:
+    - wabt
+  visiblename: wabt
+  version: 1.0.8
+  origversion: 1.0.8-1
+  status: outdated
+  maintainers:
+    - apo@debian.org
+  categories:
+    - devel
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
