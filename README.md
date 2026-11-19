@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,208 · **Forks**: 844 · **Open issues**: 871 · **Contributors**: 194
+- **Stars**: 8,210 · **Forks**: 843 · **Open issues**: 871 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 1764 · **Open PRs**: 62 · **Closed issues**: 697 · **Open issues**: 174 · **Commits**: 2664
+- **Releases**: 42 · **Merged PRs**: 1764 · **Open PRs**: 63 · **Closed issues**: 697 · **Open issues**: 174 · **Commits**: 2664
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 14 | 7 | 6 | 2 | 13 |
-| last60d | 2026-09-18 | 0 | 24 | 14 | 11 | 2 | 26 |
-| 90d | 2026-08-19 | 1 | 46 | 19 | 14 | 4 | 48 |
-| last180d | 2026-05-21 | 1 | 113 | 21 | 19 | 9 | 116 |
-| 360d | 2025-11-22 | 3 | 149 | 25 | 25 | 24 | 152 |
-| last720d | 2024-11-27 | 6 | 204 | 42 | 61 | 57 | 212 |
+| 30d | 2026-10-20 | 0 | 12 | 6 | 5 | 1 | 0 |
+| last60d | 2026-09-20 | 0 | 24 | 15 | 11 | 2 | 0 |
+| 90d | 2026-08-21 | 1 | 45 | 20 | 14 | 4 | 0 |
+| last180d | 2026-05-23 | 1 | 113 | 22 | 19 | 9 | 0 |
+| 360d | 2025-11-24 | 3 | 148 | 26 | 25 | 24 | 0 |
+| last720d | 2024-11-29 | 6 | 204 | 43 | 61 | 57 | 212 |
 
 ## Release assets
 
@@ -81,6 +81,24 @@ Lowest-scoring checks:
 | [wabt-1.0.42.tar.xz](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz) | 7.2 MiB | `other` |
 | [wabt-1.0.42.tar.xz.sha256](https://github.com/WebAssembly/wabt/releases/download/1.0.42/wabt-1.0.42.tar.xz.sha256) | 85 B | `other` |
 
+## Distribution status
+
+Reported by **90** distros on [repology.org](https://repology.org/project/wabt). **24** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.0.42+~cs1.0.39` | ⚠️ outdated |
+| Debian 14 | `1.0.42+~cs1.0.39` | ⚠️ outdated |
+| Debian 13 | `1.0.36+~cs1.0.36` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.0.36+~cs1.0.36` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.0.34+dsfg2+~cs1.0.32` | ⚠️ outdated |
+| Arch | `1.0.42` | ✅ latest |
+| Homebrew | `1.0.42` | ✅ latest |
+| Fedora rawhide | `1.0.42` | ✅ latest |
+| Nix unstable | `1.0.41` | ⚠️ outdated |
+| Void | `1.0.41` | ⚠️ outdated |
+| Alpine edge | `1.0.41` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wabt` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -90,4 +108,4 @@ Install metadata for wabt lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:25:32Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:24:46Z._
