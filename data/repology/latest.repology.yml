@@ -1,3 +1,34 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: wabt
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: 1.0.42-2
+  status: newest
+  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: wabt
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: 1.0.42-2
+  status: newest
+  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
+  licenses:
+    - Apache-2.0
+- repo: scoop
+  subrepo: extras
+  binname: wabt
+  visiblename: wabt
+  version: 1.0.42
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: wabt
@@ -138,6 +169,18 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: pkgsrc_2026_2
+  srcname: devel/wabt
+  binname: wabt
+  visiblename: devel/wabt
+  version: 1.0.41
+  origversion: null
+  status: outdated
+  summary: The WebAssembly Binary Toolkit
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
 - repo: fedora_45
   subrepo: release
   srcname: wabt
@@ -221,28 +264,6 @@
   visiblename: wabt
   version: 1.0.42
   origversion: 1.0.42-1
-  status: newest
-  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: wabt
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.42
-  origversion: 1.0.42-2
-  status: newest
-  summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: wabt
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.42
-  origversion: 1.0.42-2
   status: newest
   summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
   licenses:
@@ -358,18 +379,6 @@
   summary: 'The WebAssembly Binary Toolkit: a suite of tools for WebAssembly'
   licenses:
     - Apache-2.0
-- repo: pkgsrc_2026_2
-  srcname: devel/wabt
-  binname: wabt
-  visiblename: devel/wabt
-  version: 1.0.41
-  origversion: null
-  status: outdated
-  summary: The WebAssembly Binary Toolkit
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: pkgsrc_2026_3
   srcname: devel/wabt
   binname: wabt
@@ -409,15 +418,6 @@
     - yadd@debian.org
   categories:
     - misc
-- repo: scoop
-  subrepo: extras
-  binname: wabt
-  visiblename: wabt
-  version: 1.0.42
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: solus
   srcname: wabt
   binname: wabt
@@ -549,17 +549,19 @@
   summary: WebAssembly Binary Toolkit
   categories:
     - Libs
-- repo: deepin_unstable
-  subrepo: main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: wabt
   binnames:
     - wabt
   visiblename: wabt
-  version: 1.0.8
-  origversion: 1.0.8-1
+  version: 1.0.20
+  origversion: 1.0.20-1
   status: outdated
   maintainers:
     - apo@debian.org
+  categories:
+    - devel
   vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
@@ -1007,20 +1009,6 @@
   visiblename: wabt
   version: 1.0.8
   origversion: 1.0.8-1
-  status: outdated
-  maintainers:
-    - apo@debian.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: wabt
-  binnames:
-    - wabt
-  visiblename: wabt
-  version: 1.0.20
-  origversion: 1.0.20-1
   status: outdated
   maintainers:
     - apo@debian.org
